@@ -52,6 +52,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -88,20 +92,23 @@ p {
 }
 
 @media (max-width: 576px) {
-  .index-image {
-    display: none;
-  }
-
   h1 {
-    font-size: 35px;
+    font-size: 48px;
+    line-height: 1.5;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
   }
 
   p {
     text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
